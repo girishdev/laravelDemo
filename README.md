@@ -14,7 +14,7 @@ php artisan SET empdata --column1=2 --column2=Girish --column3=192.168.10.10
 - Second Command
 - Inserting data to "empwebhistory" table
 
-php artisan SET empwebhistory --column1=192.168.10.10 --column2=http://facebook.com
+php artisan SET empwebhistory --column1=192.168.10.10 --column2=http://jobportaltest.com
  
 - Third Command Getting Data from both the table
 - Retrieve Data from Table: "empdata" and "empwebhistory" respectively
