@@ -50,7 +50,7 @@ class UNSETS extends Command
         } elseif ($tableName == 'empwebhistory') {
 
             $unsetEmployeeWebHistory = employees::with('employeeHistory')->where('ip_address', '=', $ipAddress)->delete();
-            dd($unsetEmployeeWebHistory);
+            // dd($unsetEmployeeWebHistory);
             if(!$unsetEmployeeWebHistory){
                 $this->info('Resource not found');
             } else {
